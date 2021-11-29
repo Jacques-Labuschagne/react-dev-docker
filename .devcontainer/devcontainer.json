@@ -1,14 +1,3 @@
 {
-    "name": "JS ENV",
-    "dockerFile": "Dockerfile",
-    "appPort": [3000],
-    "runArgs": ["-u", "node"],
-    "settings": {
-        "workbench.colorTheme": "Cobalt2"
-    },
-    "postCreateCommand": "npm install",
-    "extensions": [
-        "esbenp.prettier-vscode",
-        "wesbos.theme-cobalt2"
-    ]
+    "image": "mcr.microsoft.com/vscode/devcontainers/base:alpine-3.14"
 }
